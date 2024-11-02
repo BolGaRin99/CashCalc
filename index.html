@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор купюр та монет</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Калькулятор купюр та монет</h1>
+    <div class="containers">
+        <div class="containerone">
+            <label for="hryvnia1000">1000 грн</label> <span id="total1000">0 грн</span>
+            <div class="input-group">
+                <input type="number" id="hryvnia1000" placeholder="Кількість купюр">
+            </div>
+            <label for="hryvnia500">500 грн</label> <span id="total500">0 грн</span>
+            <div class="input-group">
+                <input type="number" id="hryvnia500" placeholder="Кількість купюр">
+            </div>
+            <label for="hryvnia200">200 грн</label> <span id="total200">0 грн</span>
+            <div class="input-group">
+                <input type="number" id="hryvnia200" placeholder="Кількість купюр">
+            </div>
+            <label for="hryvnia100">100 грн</label> <span id="total100">0 грн</span>
+            <div class="input-group">
+                <input type="number" id="hryvnia100" placeholder="Кількість купюр">
+            </div>
+            <label for="hryvnia50">50 грн</label> <span id="total50">0 грн</span>
+            <div class="input-group">
+                <input type="number" id="hryvnia50" placeholder="Кількість купюр">
+            </div>
+            <label for="hryvnia20">20 грн</label> <span id="total20">0 грн</span>
+            <div class="input-group">
+                <input type="number" id="hryvnia20" placeholder="Кількість купюр">
+            </div>
+            <label for="hryvnia10">10 грн</label> <span id="total10">0 грн</span>
+            <div class="input-group">
+                <input type="number" id="hryvnia10" placeholder="Кількість купюр">
+            </div>
+            <label for="hryvnia5">5 грн</label> <span id="total5">0 грн</span>
+            <div class="input-group">
+                <input type="number" id="hryvnia5" placeholder="Кількість купюр">
+            </div>
+            <label for="hryvnia2">2 грн</label> <span id="total2">0 грн</span>
+            <div class="input-group">
+                <input type="number" id="hryvnia2" placeholder="Кількість купюр">
+            </div>
+            <label for="hryvnia1">1 грн</label> <span id="total1">0 грн</span>
+            <div class="input-group">
+                <input type="number" id="hryvnia1" placeholder="Кількість купюр">
+            </div>
+        </div>
+        <div class="containertwo">
+            <label for="coin50">50 коп</label> <span id="totalCoin50">0 грн</span>
+            <div class="input-group">
+                <input type="number" id="coin50" placeholder="Кількість монет">
+            </div>
+            <label for="coin10">10 коп</label> <span id="totalCoin10">0 грн</span>
+            <div class="input-group">
+                <input type="number" id="coin10" placeholder="Кількість монет">
+            </div>
+            <button class="custom-btn btn-2" onclick="resetFields()">Обнулити</button>
+            <div id="total">Загальна сума: 0 грн</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
